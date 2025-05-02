@@ -25,3 +25,20 @@ A responsive web application built with **React** that allows users to search an
 
 ```bash
 git clone https://github.com/yourusername/github-profile-analyzer.git
+```
+### 2. Navigate into the project directory
+```bash
+cd github-profile-analyzer
+```
+### 3. Install Dependencies
+```bash
+npm install
+```
+### 4. Start the development server
+```bash
+npm run dev
+```
+### GitHub API Reference
+User: https://api.github.com/users/{username}  <br>
+Repositories: https://api.github.com/users/{username}/repos?per_page=20&page=1&sort=updated
+
