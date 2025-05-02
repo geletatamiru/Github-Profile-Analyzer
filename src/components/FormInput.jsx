@@ -1,11 +1,10 @@
 import { useState } from "react";
 import "./FormInput.css";
-const FormInput = ({onUsernameChange}) => {
+const FormInput = ({dispatch}) => {
   const [input, setInput] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(input);
-    onUsernameChange(input);
+    dispatch({type: "setUsername", payload: {username: input}});
   }
   return (
     <form className="form" onSubmit={handleSubmit}>

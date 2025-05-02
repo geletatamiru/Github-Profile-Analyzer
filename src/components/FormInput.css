@@ -3,14 +3,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 10px;
-  background-color: rgb(15, 11, 11);
+  background-color: #202832;
   width: 90%;
   height: 200px;
   padding: 20px 40px;
   box-sizing: border-box;
 }
 .form > label {
-  color: white;
+  color: #8b949e;
   font-weight: bold;
 }
 .input-section {
@@ -34,7 +34,7 @@
   color: white;
 }
 .submit-btn {
-  background-color: aqua;
+  background-color: #2f81f7;
   border: none;
   border-radius: 5px;
   color: white;
@@ -43,6 +43,9 @@
   height: 50px;
   box-sizing: border-box;
   cursor: pointer
+}
+.submit-btn:hover {
+  background-color: #2f82f7d9;
 }
 @media (min-width: 750px) {
  .form {

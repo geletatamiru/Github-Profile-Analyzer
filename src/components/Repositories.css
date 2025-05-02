@@ -1,0 +1,10 @@
+.repositories {
+  display: flex;
+  flex-direction: column;
+  background-color: #161b22;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.repositories h2 {
+  color: white;
+}

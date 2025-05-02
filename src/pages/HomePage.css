@@ -3,21 +3,28 @@
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(0, 0, 0);
+  background-color: #161b22;
   padding: 29px 20px;
-  height: 100vh;
-  min-height: 600px;
   min-width: 450px;
+  min-height: 500px;
 }
 .home-page > h1 {
   font-size: 3rem;
   font-weight: bolder;
-  color: aqua;
+  color: #c9d1d9;
 }
 .home-page > p {
   font-size: 1.3rem;
-  color: white;
+  color: #8b949e;
   text-align: center;
+}
+.error {
+  color: #f85149;
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.413);
+  font-size: 1.3rem;
+  padding: 15px 10px;
+  border-radius: 5px;
 }
 @media (min-width: 750px) {
   .home-page {

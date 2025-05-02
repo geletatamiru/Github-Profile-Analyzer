@@ -1,0 +1,62 @@
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 95%;
+  padding-bottom: 10px;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.desc {
+  color: #8b949e;
+}
+.data {
+  display: flex;
+  gap: 5px;
+}
+.views,.stars,.forks,.issues{
+  display: flex;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.views {
+  background-color: rgba(83, 83, 241, .3);
+  color: #aeaeee;
+}
+.stars {
+  background-color: rgba(97, 170, 97, .3);
+  color: #46c746;
+}
+.forks {
+  background-color: hsla(60, 50%, 66%, .3);
+  color: #e2e23a;
+}
+.issues {
+  background-color: rgba(185, 36, 36, .3);
+  color: #e44a4a;
+}
+.repo-url {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  align-self: flex-start;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.repo-url:hover {
+  color: black;
+  background-color: white;
+}
+@media (min-width: 750px) {
+  .repo-card {
+    width: 90%;
+  }
+}

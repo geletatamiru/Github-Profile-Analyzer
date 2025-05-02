@@ -1,9 +1,8 @@
 .profile-card {
   display: flex;
   flex-direction: column;
-  background-color: rgb(37, 37, 37);
+  background-color: #161b22;
   align-items: start;
-  padding: 50px 0 20px 20px;
   color: white;
 }
 .profile-container {
@@ -27,28 +26,33 @@
   box-shadow: 2px 2px 2px black;  
   padding-right: 30px;
 }
-.back-btn, .visit-btn {
-  padding: 10px 10px;
-  border: 2px solid rgb(201, 199, 199);
+.visit-btn {
+  border: 1px solid rgb(201, 199, 199);
   font-size: 15px;
   font-weight: bold;
   background-color: transparent;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-}
-.back-btn {
-  margin-bottom: 20px;
-  width: 80px;
-}
-.visit-btn {
-  width: 200px;
   text-decoration: none;
+  text-align: center;
+  width: 200px;
+  padding: 10px 0;
 }
+.visit-btn:hover {
+  background-color: white;
+  color: black;
+}
+.prop {
+  color: #8b949e;
+  font-weight: bold;
+}
+.val {
+  font-weight: bold;
+  color: white;
+}
+
 @media (min-width: 768px) {
-  .profile-card {
-    padding-left: 100px;
-  }
   .profile-container {
     flex-direction: row;
     width: 90%;
