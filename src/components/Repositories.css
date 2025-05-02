@@ -4,8 +4,13 @@
   background-color: #161b22;
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .repositories h2 {
   color: white;
+}
+@media (min-width: 760px) {
+  .repositories {
+    padding-left: 50px;
+  }
 }

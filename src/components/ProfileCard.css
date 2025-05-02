@@ -4,7 +4,7 @@
   background-color: #161b22;
   align-items: start;
   color: white;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .profile-container {
   display: flex;
@@ -54,6 +54,9 @@
 }
 
 @media (min-width: 768px) {
+  .profile-card {
+    padding-left: 50px;
+  }
   .profile-container {
     flex-direction: row;
     width: 90%;
