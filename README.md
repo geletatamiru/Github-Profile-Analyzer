@@ -42,3 +42,5 @@ npm run dev
 User: https://api.github.com/users/{username}  <br>
 Repositories: https://api.github.com/users/{username}/repos?per_page=20&page=1&sort=updated
 
+ 
+![Demo](./assets/demo.png)
