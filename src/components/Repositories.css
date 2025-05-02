@@ -4,6 +4,7 @@
   background-color: #161b22;
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
 }
 .repositories h2 {
   color: white;

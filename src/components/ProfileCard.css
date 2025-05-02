@@ -4,6 +4,7 @@
   background-color: #161b22;
   align-items: start;
   color: white;
+  padding-left: 40px;
 }
 .profile-container {
   display: flex;

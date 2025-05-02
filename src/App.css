@@ -1,8 +1,8 @@
 body {
   margin: 0;
+  background-color: #161b22;
 }
 .app {
-  padding-left: 25px;
   background-color: #161b22;
   min-height: 100vh;
 }
@@ -19,10 +19,5 @@ body {
 @keyframes spin {
   to {
     transform: rotate(360deg);
-  }
-}
-@media (min-width: 750px) {
-  .app {
-    padding-left: 80px;
   }
 }
