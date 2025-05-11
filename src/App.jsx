@@ -62,10 +62,11 @@ function App() {
       <ProfileCard userData={state.userData}/>
     }
     {
-      (state.repos) && 
+      (state.repos && state.userData) && 
       <Repositories 
         repos={state.repos} 
         count={state.userData?.public_repos}
+        user={state.userData}
       />
     }
    </div>
